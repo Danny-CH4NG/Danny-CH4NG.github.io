@@ -9,15 +9,15 @@
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
 site:
-  subtitle: Aurora's Blog
-  author: Aurora
-  nick: Auroral UI
-  description:
+  subtitle: 猴子也能懂的掉坑紀錄
+  author: 猴子工程師
+  nick: DeadLockArk
+  description: 只要坑掉多了<br />猴子也能完成莎士比亞全集
   link: '/'
-  language: en
+  language: cn
   multi_language: true
-  logo: https://img-blog.csdnimg.cn/20210313122054101.png
-  avatar: https://img-blog.csdnimg.cn/20210313122054101.png
+  logo: https://i.imgur.com/5BVPyT3_d.webp
+  avatar: https://i.imgur.com/5BVPyT3_d.webp
   beian:
     number: ''
     link: ''
@@ -54,7 +54,7 @@ menu:
 #! ---------------------------------------------------------------
 theme:
   dark_mode: true
-  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  profile_shape: circle # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
     color_1: '#24c6dc'
@@ -106,8 +106,8 @@ gitalk:
   clientID: ''
   clientSecret: ''
   repo: 'dev-blog-comments'
-  owner: 'TriDiamond'
-  admin: ['TriDiamond']
+  owner: 'Danny-CH4NG'
+  admin: ['Danny-CH4NG']
   id: uid
   language: en
   distractionFreeMode: true
@@ -127,7 +127,7 @@ valine:
   avatarForce: false
   meta: ['nick', 'mail']
   requiredFields: []
-  admin: 'TriDiamond'
+  admin: 'Danny-CH4NG'
   recentComment: true
 
 # Enable Busuanzi statistic plugin
