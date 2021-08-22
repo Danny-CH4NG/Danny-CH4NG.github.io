@@ -102,4 +102,4 @@ theme: aurora
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'git@github.com:Danny-CH4NG/Danny-CH4NG.github.io.git'
