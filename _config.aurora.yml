@@ -1,10 +1,6 @@
 #! ---------------------------------------------------------------
 #! Aurora Theme for Hexo
 #! ---------------------------------------------------------------
-#! Designed & Coded By TriDiamond
-#! ---------------------------------------------------------------
-
-#! ---------------------------------------------------------------
 #! Site Configs
 #！ @docs https://aurora.tridiamond.tech/guide/configuration.html
 #! ---------------------------------------------------------------
@@ -66,6 +62,7 @@ theme:
 #! @docs https://aurora.tridiamond.tech/guide/social.html
 #! ---------------------------------------------------------------
 socials:
+  github: 'https://github.com/Danny-CH4NG'
   customs:
   ##! Example:
   ##! --- Using SVG
@@ -103,13 +100,13 @@ site_meta:
 gitalk:
   enable: true
   autoExpand: true
-  clientID: ''
-  clientSecret: ''
-  repo: 'dev-blog-comments'
+  clientID: '7500734993edf8d913b3'
+  clientSecret: '5d1c93784e4f54ff85ae1d28775feaa472025e65'
+  repo: 'danny-ch4ng.github.io'
   owner: 'Danny-CH4NG'
   admin: ['Danny-CH4NG']
   id: uid
-  language: en
+  language: zh-TW
   distractionFreeMode: true
   recentComment: true
   proxy: ''
@@ -136,7 +133,7 @@ busuanzi:
   enable: true
 
 copy_protection:
-  enable: true
+  enable: false
   author:
     cn: 作者
     en: Author
