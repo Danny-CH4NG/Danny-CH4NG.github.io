@@ -4,7 +4,7 @@ date: 2021-08-22 15:33:44
 tags:
   - Docker
 categories:
-  - DevOps
+  - Docker
 ---
 
 

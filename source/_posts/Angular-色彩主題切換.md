@@ -2,9 +2,9 @@
 title: Angular-色彩主題切換
 date: 2021-08-30 20:40:22
 tags:
-  - Angular
+  - Material-UI
 categories:
-  - Frontend
+  - Angular
 ---
 
 簡單介紹一下色彩切換功能
@@ -34,8 +34,7 @@ $light-theme: mat-light-theme($light-primary, $light-accent, $light-warn);
 ```
 
 ### 在app.component建立切換功能
-
-因為menu、dialog等元件在OverlayContainer，與app.component平級，所以額外改變其樣式
+material-UI中，menu、dialog等元件在OverlayContainer，與app.component平級，所以額外改變其樣式
 
 #### html
 ```
