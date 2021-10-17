@@ -1,6 +1,6 @@
 ---
-title: Golang-Gin框架+GORM 搭建API Server(1)
-date: 2021-10-17 14:56:18
+title: Golang-Gin框架+GORM搭建APIServer(1)
+date: 2021-10-17 15:01:36
 tags:
   - Gin
   - GORM
