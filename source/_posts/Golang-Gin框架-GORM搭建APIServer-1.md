@@ -142,7 +142,7 @@ config.yml
 mode: "debug"
 
 server:
-  port: "10080"
+  port: "3601"
 
 db:
   type: "postgresql"
@@ -174,7 +174,7 @@ func main() {
 		})
         log.Info().Msg("/ping success")
 	})
-	r.Run(":10080")
+	r.Run(":3601")
 }
 
 ```
@@ -184,7 +184,7 @@ go mod init server
 go mod tidy
 go run server.go
 ```
-訪問 localhost:10080/ping，測試是否返回"pong"
+訪問 localhost:3601/ping，測試是否返回"pong"
 
 ## 編寫讀取設定檔的方式
 ```
@@ -275,7 +275,3 @@ func main() {
 	r.Run(":" + config.Config.Server.Port)
 }
 ```
-
----
-###### tags: `GO`, `gin`
----
