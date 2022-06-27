@@ -8,7 +8,7 @@ categories:
   - Agile
 ---
 
-# SCRUM筆記
+# [SCRUM] SCRUM筆記
 
 ## 解決痛點
 
